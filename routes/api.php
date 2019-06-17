@@ -13,6 +13,16 @@ use Illuminate\Http\Request;
 |
 */
 
+/*
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
-});
+});*/
+
+Route::get('/stocked-items', 'ApiController@getStockedItem');
+
+Route::get('/stocked-items/{itemid}', 'ApiController@getOneStockedItem');
+
+Route::post('/stocked-items/{itemid}', 'ApiController@updateStockedItem');
+
+
+
