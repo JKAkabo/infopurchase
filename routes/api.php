@@ -18,11 +18,18 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });*/
 
-Route::get('/stocked-items', 'ApiController@getStockedItem');
+Route::get('/v1/stocked-items', 'ApiController@getStockedItem');
 
-Route::get('/stocked-items/{itemid}', 'ApiController@getOneStockedItem');
+Route::get('/v1/stocked-items/{itemid}', 'ApiController@getOneStockedItem');
 
-Route::post('/stocked-items/{itemid}', 'ApiController@updateStockedItem');
+Route::post('/v1/stocked-items/{itemid}', 'ApiController@updateStockedItem');
+
+//PO
+Route::get('/v1/pending-receival', 'ApiController@getAllApprovalPendingReceival');
+
+Route::get('/v1/pending-receival/{purchaseorderno}', 'ApiController@getOneApprovalPendingReceival');
+
+Route::post('/v1/stocked-items/{purchaseorderno}', 'ApiController@updateAllApprovalPendingReceival');
 
 
 

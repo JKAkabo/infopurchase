@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\PurchaseOrderLinesApprovedPendingReceivalView;
 use App\StockedItem;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -11,7 +12,72 @@ class ApiController extends Controller
 
     public function getAllApprovalPendingReceival(){
 
+       $pending_receival = PurchaseOrderLinesApprovedPendingReceivalView::all();
+
+        if($pending_receival ==null){
+            $msg =array(
+                'code'=> '200',
+                'message'=> 'no record available',
+                'data'=>null
+            );
+
+        }else{
+            $msg =array(
+                'code'=> '200',
+                'message'=> 'success',
+                'data'=>$pending_receival
+            );
+        }
+        return response()->json($msg, $msg['code']);
+
     }
+
+    public function getOneApprovalPendingReceival($purchase_order_no){
+
+        $pending_receival = PurchaseOrderLinesApprovedPendingReceivalView::all()
+            ->where('OrderID',$purchase_order_no);
+
+        if($pending_receival==null){
+            $msg =array(
+                'code'=> '200',
+                'message'=> 'no record available',
+                'data'=>null
+            );
+
+        }else{
+            $msg =array(
+                'code'=> '200',
+                'message'=> 'success',
+                'data'=>$pending_receival
+            );
+        }
+        return response()->json($msg, $msg['code']);
+
+    }
+
+    public function updateApprovalPendingReceival(Request $request, $purchase_order_no){
+
+        $pending_receival = PurchaseOrderLinesApprovedPendingReceivalView::all()
+            ->where('OrderID',$purchase_order_no);
+
+        if($pending_receival.isEmpty()){
+            $msg =array(
+                'code'=> '404',
+                'message'=> 'failed',
+                'data'=>null
+            );
+
+        }else{
+            $msg =array(
+                'code'=> '200',
+                'message'=> 'success',
+                'data'=>$pending_receival
+            );
+        }
+        return response()->json($msg, $msg['code']);
+
+    }
+
 
     public function getAllApprovalPending(){
 
