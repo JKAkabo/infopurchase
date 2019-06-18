@@ -29,7 +29,7 @@ Route::get('/v1/pending-receival', 'ApiController@getAllApprovalPendingReceival'
 
 Route::get('/v1/pending-receival/{purchaseorderno}', 'ApiController@getOneApprovalPendingReceival');
 
-Route::post('/v1/stocked-items/{purchaseorderno}', 'ApiController@updateAllApprovalPendingReceival');
+Route::post('/v1/pending-receival/{purchaseorderno}', 'ApiController@updateApprovalPendingReceival');
 
 
 
