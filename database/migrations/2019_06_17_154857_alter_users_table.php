@@ -13,7 +13,7 @@ class AlterUsersTable extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
+        Schema::connection('sqlsrv_auth')->table('users', function (Blueprint $table) {
             $table->integer('user_type');
             $table->string('username');
         });

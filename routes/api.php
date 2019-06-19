@@ -31,5 +31,12 @@ Route::get('/v1/pending-receival/{purchaseorderno}', 'ApiController@getOneApprov
 
 Route::post('/v1/pending-receival/{purchaseorderno}', 'ApiController@updateApprovalPendingReceival');
 
+Route::post('/v1/save-stored/{purchaseorderno}/{itemid}', 'ApiController@saveAllCompletedPurchaseOrder');
+
+//Stocked temp for check
+Route::get('/v1/pending-check/{purchaseorderno}', 'ApiController@getAllReceivalPending');
+//Save QR Code
+Route::post('/v1/save-qr-code', 'ApiController@storeQR');
+
 
 

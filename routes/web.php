@@ -19,3 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/register-users', 'UserController@store')->name('register.user');
+
+Route::get('/user-types', 'UserController@get_user_type')->name('user-types');

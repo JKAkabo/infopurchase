@@ -2,7 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8818aa5-2810-4e62-99ce-57579f841f65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/storage/api-docs/api-docs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/inventdb.WL1nJQ/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/inventdb.WL1nJQ/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_accessadmin.KqpDJg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_accessadmin.KqpDJg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_backupoperator.R9Ifpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_backupoperator.R9Ifpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_datareader.To823g.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_datareader.To823g.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_datawriter._tp55w.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_datawriter._tp55w.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_ddladmin.hGWOrg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_ddladmin.hGWOrg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_denydatareader.2lWItw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_denydatareader.2lWItw.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_denydatawriter.iqHLwA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_denydatawriter.iqHLwA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_owner.souIfA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_owner.souIfA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_securityadmin.Dj5jKg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_securityadmin.Dj5jKg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/guest.2C3iBQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/guest.2C3iBQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/sys.zb4BAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/infopurchase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/infopurchase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/PurchaseOrderLinesApprovedPendingReceivalView.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/PurchaseOrderLinesApprovedPendingReceivalView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/PurchaseOrderlinesPendingApprovalView.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/PurchaseOrderlinesPendingApprovalView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/StockedItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/StockedItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/UserType.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/UserType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_17_154857_alter_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_06_17_154857_alter_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_17_155106_create_user_types_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_06_17_155106_create_user_types_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_17_155154_create_items_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_17_155205_create_item_inventories_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_17_155233_create_supplier_items_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_17_195227_create_purchase_order_lines_approved_pending_receival_views_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_17_195313_create_purchase_orderlines_pending_approval_views_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_17_195545_create_stocked_items_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,20 +75,45 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="inventdb: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="authdb: database" type="ccb7ac2a:MsImplModel$Database" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="inventdb: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="authdb: database" type="ccb7ac2a:MsImplModel$Database" />
         <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="inventdb: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="authdb: database" type="ccb7ac2a:MsImplModel$Database" />
         <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
-        <item name="stocked_items: table" type="63ab2ba1:MsImplModel$Table" />
+        <item name="q_r_codes: table" type="63ab2ba1:MsImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="authdb: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+        <item name="users: table" type="63ab2ba1:MsImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="poappdb: database" type="ccb7ac2a:MsImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="poappdb: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="poappdb: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -56,51 +124,90 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="106" column="28" lean-forward="true" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
+            <state relative-caret-position="364">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1430">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
-                <element signature="e#40#94#0#PHP" expanded="true" />
-                <element signature="e#172#235#0#PHP" />
-                <element signature="e#1740#1873#0#PHP" />
+                <element signature="e#40#53#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        <entry file="das://6746974c-ad45-4736-9cb7-94f35bbd8a28/database/authdb/schema/dbo/table/q_r_codes">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/StockedItem.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <entry file="das://6746974c-ad45-4736-9cb7-94f35bbd8a28/database/authdb/schema/dbo/table/users">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Item.php">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="33" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="254">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="364">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="37">
+              <caret line="472" column="74" lean-forward="true" selection-start-line="472" selection-start-column="12" selection-end-line="472" selection-end-column="74" />
+              <folding>
+                <element signature="e#40#94#0#PHP" expanded="true" />
+                <element signature="e#1757#2385#0#PHP" />
+                <element signature="e#2391#4640#0#PHP" />
+                <element signature="e#8609#10007#0#PHP" />
+                <element signature="e#9941#10475#0#PHP" />
+                <element signature="e#10552#11223#0#PHP" />
+                <element signature="e#11418#12478#0#PHP" />
+                <element signature="e#13693#15996#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,8 +215,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            <state relative-caret-position="452">
+              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -128,6 +235,8 @@
       <find>invent</find>
       <find>inventdb.dbo.</find>
       <find>StockedItems</find>
+      <find>PK_StockedItems</find>
+      <find>required=true,</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,31 +245,47 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/views/layouts/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/common/scripts.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/common/styles.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_06_17_195545_create_stocked_items_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_06_17_195227_create_purchase_order_lines_approved_pending_receival_views_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_06_17_195313_create_purchase_orderlines_pending_approval_views_table.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6746974c-ad45-4736-9cb7-94f35bbd8a28/console_1.sql" />
         <option value="$USER_HOME$/SELECT_t___FROM_poappdb_dbo_StockedItems.sql" />
-        <option value="$PROJECT_DIR$/app/PurchaseOrderDTO.php" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/PurchaseOrderlinesPendingApprovalView.php" />
-        <option value="$PROJECT_DIR$/app/PurchaseOrderLinesApprovedPendingReceivalView.php" />
         <option value="$PROJECT_DIR$/app/StockedItem.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
+        <option value="$PROJECT_DIR$/app/PurchaseOrderDTO.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6746974c-ad45-4736-9cb7-94f35bbd8a28/console_2.sql" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/storage/anotations/OpenApi/Anotations.php" />
+        <option value="$PROJECT_DIR$/storage/api-docs/api-docs.json" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_06_17_154857_alter_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_06_17_155106_create_user_types_table.php" />
+        <option value="$PROJECT_DIR$/app/UserType.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_06_18_182508_create_q_r_codes_table.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/PurchaseOrderLinesApprovedPendingReceivalView.php" />
+        <option value="$PROJECT_DIR$/app/StockItemTemp.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6746974c-ad45-4736-9cb7-94f35bbd8a28/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/app/QRCode.php" />
+        <option value="$PROJECT_DIR$/config/l5-swagger.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
       </list>
     </option>
   </component>
@@ -250,12 +375,32 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/swagger-api/swagger-ui" />
+      <path value="$PROJECT_DIR$/vendor/darkaonline/l5-swagger" />
+      <path value="$PROJECT_DIR$/vendor/zircote/swagger-php" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="989" />
+    <option name="height" value="988" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -295,6 +440,12 @@
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
               <item name="Auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="infopurchase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="infopurchase" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Providers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="infopurchase" type="b2602c69:ProjectViewProjectNode" />
@@ -339,20 +490,38 @@
               <item name="infopurchase" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="infopurchase" type="b2602c69:ProjectViewProjectNode" />
               <item name="infopurchase" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="infopurchase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="infopurchase" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="l5-swagger" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="infopurchase" type="b2602c69:ProjectViewProjectNode" />
               <item name="infopurchase" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="infopurchase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="infopurchase" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="infopurchase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="infopurchase" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="anotations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,7 +533,7 @@
     <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/image" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -375,6 +544,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/storage/api-docs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/image" />
     </key>
@@ -401,27 +573,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560793235900</updated>
-      <workItem from="1560793237375" duration="21072000" />
+      <workItem from="1560793237375" duration="53315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21072000" />
+    <option name="totallyTimeSpent" value="53315000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="988" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="988" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" sideWeight="0.5007657" side_tool="true" weight="0.24969475" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992343" visible="true" weight="0.16361417" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992343" visible="true" weight="0.14468865" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.2416953" />
+      <window_info anchor="bottom" id="SQL Generator" weight="0.3298969" />
+      <window_info anchor="bottom" id="Terminal" weight="0.27949598" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.31771427" />
+      <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.31729668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -434,110 +607,35 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="npm" order="0" side_tool="true" />
+      <window_info id="Favorites" order="1" sideWeight="0.5007657" side_tool="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.4992343" visible="true" weight="0.16361417" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SQL Generator" order="1" weight="0.3298969" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.31958762" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Database Console" order="6" weight="0.31729668" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.20818071" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6746974c-ad45-4736-9cb7-94f35bbd8a28/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/supplier/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/supplier/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/supplier/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2496">
-          <caret line="96" column="39" selection-start-line="96" selection-start-column="39" selection-end-line="96" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" selection-start-column="57" selection-end-column="57" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#li#2;n#ul#1;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/common/scripts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="91" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/common/styles.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="110" selection-start-line="2" selection-end-line="2" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="88" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="32" column="42" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-796">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-          <folding>
-            <element signature="e#414#1160#0#HTML" />
-            <element signature="e#589#1129#0#HTML" />
-            <element signature="e#1186#1940#0#HTML" />
-            <element signature="e#1966#2712#0#HTML" />
-            <element signature="e#2738#3190#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-718">
@@ -558,38 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#626#0#Blade" />
-            <element signature="e#804#825#0#HTML" expanded="true" />
-            <element signature="e#958#979#0#HTML" expanded="true" />
-            <element signature="e#1155#1176#0#HTML" expanded="true" />
-            <element signature="e#1361#1382#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://6746974c-ad45-4736-9cb7-94f35bbd8a28/database/poappdb/schema/dbo/view/PurchaseOrderlinesPendingApprovalView">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://6746974c-ad45-4736-9cb7-94f35bbd8a28/database/poappdb/schema/dbo/view/PurchaseOrderLinesApprovedPendingReceivalView">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
         </state>
       </provider>
     </entry>
@@ -624,22 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://6746974c-ad45-4736-9cb7-94f35bbd8a28/database/poappdb/schema/dbo/table/StockedItems">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_17_195313_create_purchase_orderlines_pending_approval_views_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -662,55 +712,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-671">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Item.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="12" column="33" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/PurchaseOrderDTO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/PurchaseOrderLinesApprovedPendingReceivalView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/PurchaseOrderlinesPendingApprovalView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -726,10 +731,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/StockedItem.php">
+    <entry file="das://6746974c-ad45-4736-9cb7-94f35bbd8a28/database/poappdb/schema/dbo/view/PurchaseOrderlinesPendingApprovalView">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6746974c-ad45-4736-9cb7-94f35bbd8a28/database/poappdb/schema/dbo/view/PurchaseOrderLinesApprovedPendingReceivalView">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/PurchaseOrderDTO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="367">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -745,22 +768,273 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6746974c-ad45-4736-9cb7-94f35bbd8a28/console_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="14" lean-forward="true" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/StockedItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/api-docs/Anotations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
-          <caret line="106" column="28" lean-forward="true" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
-          <folding>
-            <element signature="e#40#94#0#PHP" expanded="true" />
-            <element signature="e#172#235#0#PHP" />
-            <element signature="e#1740#1873#0#PHP" />
-          </folding>
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/api-docs/api-docs.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/PurchaseOrderlinesPendingApprovalView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        <state relative-caret-position="262">
+          <caret line="93" column="20" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6746974c-ad45-4736-9cb7-94f35bbd8a28/database/poappdb/schema/dbo/table/Users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UserType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_18_182508_create_q_r_codes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_17_155106_create_user_types_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_17_154857_alter_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/PurchaseOrderLinesApprovedPendingReceivalView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/StockItemTemp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="7" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6746974c-ad45-4736-9cb7-94f35bbd8a28/database/authdb/schema/dbo/table/user_types">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6746974c-ad45-4736-9cb7-94f35bbd8a28/database/poappdb/schema/dbo/table/StockedItems">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6746974c-ad45-4736-9cb7-94f35bbd8a28/database/poappdb/schema/dbo/table/StockedItemsTemp">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6746974c-ad45-4736-9cb7-94f35bbd8a28/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/QRCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/l5-swagger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/vendor/l5-swagger/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="472" column="74" lean-forward="true" selection-start-line="472" selection-start-column="12" selection-end-line="472" selection-end-column="74" />
+          <folding>
+            <element signature="e#40#94#0#PHP" expanded="true" />
+            <element signature="e#1757#2385#0#PHP" />
+            <element signature="e#2391#4640#0#PHP" />
+            <element signature="e#8609#10007#0#PHP" />
+            <element signature="e#9941#10475#0#PHP" />
+            <element signature="e#10552#11223#0#PHP" />
+            <element signature="e#11418#12478#0#PHP" />
+            <element signature="e#13693#15996#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6746974c-ad45-4736-9cb7-94f35bbd8a28/database/authdb/schema/dbo/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6746974c-ad45-4736-9cb7-94f35bbd8a28/database/authdb/schema/dbo/table/q_r_codes">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>

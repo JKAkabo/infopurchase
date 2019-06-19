@@ -4,8 +4,10 @@ namespace App\Http\Controllers;
 
 use App\User;
 
+use App\UserType;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
 use Illuminate\Support\Facades\Validator;
@@ -17,7 +19,7 @@ class UserController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'username' => ['required', 'string', 'max:50', 'unique:users'],
             'user_type' => ['required', 'integer'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            //'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
             ];
     /**
@@ -29,9 +31,6 @@ class UserController extends Controller
     {
         $this->middleware('auth');
     }*/
-
-
-
 
     public function store(Request $request)
     {
@@ -48,15 +47,22 @@ class UserController extends Controller
             $user->user_type = $request->user_type;
             $user->email = $request->email;
             $user->password = Hash::make($request->password);
-
-            $save = $user->save();
+            $save = $user->setConnection('sqlsrv_auth')->save();
         }
 
         if (!$save){
             return back()->withErrors($validator)->withInput();
         }
 
-         Auth::login($user);
+        Auth::login($user);
         return redirect()->route('home');
     }
+
+    public function get_user_type(){
+        $types = new UserType();
+        $types->setConnection('sqlsrv_auth');
+        $types = $types->all();
+        return $types;
+    }
+
 }

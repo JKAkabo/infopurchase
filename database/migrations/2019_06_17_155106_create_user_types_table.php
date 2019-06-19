@@ -13,7 +13,7 @@ class CreateUserTypesTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_types', function (Blueprint $table) {
+        Schema::connection('sqlsrv_auth')->create('user_types', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('type', 20);
         });

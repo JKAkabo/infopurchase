@@ -6,6 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class StockedItem extends Model
 {
-    protected $table = 'stocked_items';
+    protected $table = 'StockedItems';
     public $timestamps = false;
 }

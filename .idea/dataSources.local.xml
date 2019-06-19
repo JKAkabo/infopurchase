@@ -9,7 +9,7 @@
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
       <user-name>sa</user-name>
-      <introspection-schemas>inventdb:dbo|poappdb:*</introspection-schemas>
+      <introspection-schemas>authdb:dbo|inventdb:dbo|poappdb:dbo</introspection-schemas>
     </data-source>
   </component>
 </project>

@@ -1,0 +1,246 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "L5 OpenApi",
+        "description": "This an Infoech HAMS Supplier Purchase Order Interface API",
+        "contact": {
+            "name": "Infoech Dot Net Systems Support Team",
+            "email": "support@example.com"
+        },
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/v1/pending-receival": {
+            "get": {
+                "tags": [
+                    "Purchase Order"
+                ],
+                "summary": "All Purchase Orders Pending Receival",
+                "operationId": "App\\Http\\Controllers\\ApiController::getAllApprovalPendingReceival",
+                "responses": {
+                    "200": {
+                        "description": "Get All Purchase Orders Pending Receival"
+                    }
+                }
+            }
+        },
+        "/api/v1/pending-receival/{orderId}": {
+            "get": {
+                "tags": [
+                    "Purchase Order"
+                ],
+                "summary": "Get Purchase Orders Pending Receival by Purchase Order No.",
+                "operationId": "App\\Http\\Controllers\\ApiController::getOneApprovalPendingReceival",
+                "parameters": [
+                    {
+                        "name": "orderId",
+                        "in": "path",
+                        "description": "Provider Purchase Order No a parameter",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Get All Purchase Orders Pending Receival"
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Purchase Order"
+                ],
+                "summary": "Generate a new Purchase Orders Pending Receival",
+                "operationId": "App\\Http\\Controllers\\ApiController::updateApprovalPendingReceival",
+                "parameters": [
+                    {
+                        "name": "orderId",
+                        "in": "path",
+                        "description": "Provider Purchase Order No a parameter",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "ItemID": {
+                                        "type": "string"
+                                    },
+                                    "UnitCost": {
+                                        "type": "string"
+                                    },
+                                    "StockLevel": {
+                                        "type": "double"
+                                    },
+                                    "ExpiryDate": {
+                                        "type": "DateTime"
+                                    },
+                                    "BatchNo": {
+                                        "type": "string"
+                                    },
+                                    "StoreID": {
+                                        "type": "string"
+                                    },
+                                    "OrderID": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object",
+                                "example": {
+                                    "ItemID": "D22231",
+                                    "UnitCost": "1392813",
+                                    "StockLevel": "223",
+                                    "ExpiryDate": "2020-01-31 00:00:00.000",
+                                    "BatchNo": "237372",
+                                    "StoreID": "ST3372",
+                                    "OrderID": "234543"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/api/v1/save-stored/{orderId}/{itemId}": {
+            "post": {
+                "tags": [
+                    "Purchase Order"
+                ],
+                "summary": "Receives a new Purchase Order(s)",
+                "operationId": "App\\Http\\Controllers\\ApiController::saveAllCompletedPurchaseOrder",
+                "parameters": [
+                    {
+                        "name": "orderId",
+                        "in": "path",
+                        "description": "Supplier Purchase Order No a parameter",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "itemId",
+                        "in": "path",
+                        "description": " Order Item No a parameter",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "ItemID": {
+                                        "type": "string"
+                                    },
+                                    "UnitCost": {
+                                        "type": "string"
+                                    },
+                                    "StockLevel": {
+                                        "type": "double"
+                                    },
+                                    "ExpiryDate": {
+                                        "type": "DateTime"
+                                    },
+                                    "BatchNo": {
+                                        "type": "string"
+                                    },
+                                    "StoreID": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object",
+                                "example": {
+                                    "ItemID": "D22231",
+                                    "UnitCost": "1392813",
+                                    "StockLevel": "223",
+                                    "ExpiryDate": "2020-01-31 00:00:00.000",
+                                    "BatchNo": "237372",
+                                    "StoreID": "ST3372"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/api/v1/pending-check/{orderId}": {
+            "get": {
+                "tags": [
+                    "Purchase Order"
+                ],
+                "summary": "Get Purchase Orders Waiting to be checked and Approved.",
+                "operationId": "App\\Http\\Controllers\\ApiController::getAllReceivalPending",
+                "parameters": [
+                    {
+                        "name": "orderId",
+                        "in": "path",
+                        "description": "Provider Purchase Order No a parameter",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Get All Orders Waiting to be checked and Approved"
+                    }
+                }
+            }
+        },
+        "/api/v1/save-qr-code": {
+            "post": {
+                "tags": [
+                    "Purchase Order"
+                ],
+                "summary": "save a new Purchase Order(s) QR Code",
+                "operationId": "App\\Http\\Controllers\\ApiController::storeQR",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "order_id": {
+                                        "type": "string"
+                                    },
+                                    "qr_code_image": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object",
+                                "example": {
+                                    "order_id": 11,
+                                    "qr_code_image": "Base64 String"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -8,15 +8,16 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
 {
+    protected $connection = 'sqlsrv_auth';
     use Notifiable;
-
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
+    //protected  $table = 'users';
     protected $fillable = [
-        'username', 'name', 'email', 'password', 'usertype',
+        'username', 'name', 'email', 'password', 'user_type',
     ];
 
     /**
