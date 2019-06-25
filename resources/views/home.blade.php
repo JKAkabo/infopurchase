@@ -25,11 +25,11 @@
                                 <a class="btn btn-success text-white" style="width: 200px;" >Add New Item</a>
                             </div>
                             <div class="col-sm-4" >
-                                <a class="btn btn-success text-white" style="width: 200px;" >View Purchase Orders</a>
+                                <a class="btn btn-success text-white" href="{{route('orders-pending')}}" style="width: 200px;" >Pending Purchase Orders</a>
                             </div>
 
                             <div class="col-sm-4" >
-                                <a class="btn btn-success text-white" style="width: 200px;" >View Pending Orders</a>
+                                <a class="btn btn-success text-white" style="width: 200px;" href="{{route('qr-codes')}}" >QR Codes</a>
                             </div>
 
                         </div>

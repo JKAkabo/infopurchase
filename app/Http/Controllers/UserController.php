@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Validation\Rule;
 
 class UserController extends Controller
 {
@@ -19,7 +20,7 @@ class UserController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'username' => ['required', 'string', 'max:50', 'unique:users'],
             'user_type' => ['required', 'integer'],
-            //'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            //'email' => ['required', 'email', 'max:255','unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
             ];
     /**

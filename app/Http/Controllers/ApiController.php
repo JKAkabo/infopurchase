@@ -3,15 +3,20 @@
 namespace App\Http\Controllers;
 
 use App\PurchaseOrderLinesApprovedPendingReceivalView;
+use App\PurchaseOrderPendingReceival;
 use App\QRCode;
 use App\StockedItem;
 use App\StockItemTemp;
+use App\Traits\ReceivedOrder;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 
 class ApiController extends Controller
 {
+
+    use ReceivedOrder;
+
     public $b_val = [
         'ItemID' => ['required', 'string', 'unique:users']
     ];
@@ -33,13 +38,105 @@ class ApiController extends Controller
   *
   */
     public function getAllApprovalPendingReceival(){
-
-       $pending_receival = PurchaseOrderLinesApprovedPendingReceivalView::all();
-
-        if($pending_receival ==null){
+        $details= array();
+       $summary = PurchaseOrderPendingReceival::orderby('SupplierID', 'DESC')->get();
+        if($summary ==null){
             $msg =array(
                 'code'=> '204',
                 'message'=> 'no record available',
+                'data'=>null
+            );
+            return response()->json($msg, $msg['code']);
+        }
+        //Helps Retrieves list of order-lines for a pending receivable
+        foreach ($summary  as $item){
+            $details['details']=$item->order_lines;
+        }
+
+        $data['summary'] = $summary;
+            $msg =array(
+                'code'=> '200',
+                'message'=> 'success',
+                'data'=>$summary
+            );
+        return response()->json($msg, $msg['code']);
+    }
+
+    /**
+     * @OA\Get(
+     *     path="/api/v2/pending-receival/supplier-id/{supplierId}",
+     *      summary="All Purchase Orders Pending Receival By a Particuler Supplier",
+     *     @OA\Response(response="200",
+     *     description="Get All Purchase Orders Pending Receival",
+     * ),
+     *     tags={"Supplier "},
+     *     @OA\Parameter(
+     *         name="supplierId",
+     *         in="path",
+     *         description="Provide supplier Id as a parameter",
+     *
+     *         @OA\Schema(type="string")
+     *     )
+     * )
+     *
+     */
+    public function getAllApprovalPendingReceivalBySupplierID($supplier_id){
+        $details= array();
+        $summary = PurchaseOrderPendingReceival::where('SupplierID', $supplier_id)->get();
+        if($summary ==null){
+            $msg =array(
+                'code'=> '404',
+                'message'=> 'no record available',
+                'data'=>null
+            );
+            return response()->json($msg, $msg['code']);
+        }
+        //Helps Retrieves list of order-lines for a pending receivable
+        foreach ($summary  as $item){
+            $details['details']=$item->order_lines;
+        }
+
+        $data['summary'] = $summary;
+        $msg =array(
+            'code'=> '200',
+            'message'=> 'success',
+            'data'=>$summary
+        );
+        return response()->json($msg, $msg['code']);
+    }
+
+    /**
+     * @OA\Get(
+     *     path="/api/v1/pending-receival/{orderId}",
+     *     summary="Get Purchase Orders Pending Receival by Purchase Order No.",
+     *     @OA\Response(response="200", description="Get All Purchase Orders Pending Receival"),
+     *
+     *     tags={"Pending Purchase Order"},
+     *     @OA\Parameter(
+     *         name="orderId",
+     *         in="path",
+     *         description="Provider Purchase Order No a parameter",
+     *
+     *         @OA\Schema(type="string")
+     *     )
+     * )
+     *
+     */
+    public function getOneApprovalPendingReceival($purchase_order_no){
+        //SELECT  * from OrderLines where OrderID = 2 and OrderLineStatus = 1
+
+        $pending_receival = PurchaseOrderLinesApprovedPendingReceivalView::all()
+            ->where('OrderID',$purchase_order_no);
+        /*$result = array();
+        $pending_receival = PurchaseOrderLinesApprovedPendingReceivalView::where('OrderID',$purchase_order_no)->first();
+        $details = OrderLine::where([['OrderID',$purchase_order_no],['OrderLineStatus',1]])->get();
+        $result['summary']=$pending_receival;
+        $result['details']=$details;*/
+
+        if(!$pending_receival==null){
+            $msg =array(
+                'code'=> '404',
+                'message'=> 'No Purchase Order Approved for Order ID '.$purchase_order_no,
                 'data'=>null
             );
 
@@ -56,13 +153,13 @@ class ApiController extends Controller
 
     /**
      * @OA\Get(
-     *     path="/api/v1/pending-receival/{orderId}",
+     *     path="/api/v2/pending-receival/{PONo}",
      *     summary="Get Purchase Orders Pending Receival by Purchase Order No.",
      *     @OA\Response(response="200", description="Get All Purchase Orders Pending Receival"),
      *
-     *     tags={"Purchase Order"},
+     *     tags={"Pending Purchase Order"},
      *     @OA\Parameter(
-     *         name="orderId",
+     *         name="PONo",
      *         in="path",
      *         description="Provider Purchase Order No a parameter",
      *
@@ -71,36 +168,42 @@ class ApiController extends Controller
      * )
      *
      */
-    public function getOneApprovalPendingReceival($purchase_order_no){
+    public function getOneApprovalPendingReceivalV2($purchase_order_no){
+        //SELECT  * from OrderLines where OrderID = 2 and OrderLineStatus = 1
+        $details= array();
+        $summary = PurchaseOrderPendingReceival::all()
+            ->where('PONo',$purchase_order_no);
 
-        $pending_receival = PurchaseOrderLinesApprovedPendingReceivalView::all()
-            ->where('OrderID',$purchase_order_no);
-
-        if($pending_receival==null){
+        if($summary ==null){
             $msg =array(
                 'code'=> '204',
                 'message'=> 'no record available',
                 'data'=>null
             );
-
-        }else{
-            $msg =array(
-                'code'=> '200',
-                'message'=> 'success',
-                'data'=>$pending_receival
-            );
+            return response()->json($msg, $msg['code']);
         }
+        //Helps Retrieves list of order-lines for a pending receivable
+        foreach ($summary  as $item){
+            $details['details']=$item->order_lines;
+        }
+
+        $data['summary'] = $summary;
+        $msg =array(
+            'code'=> '200',
+            'message'=> 'success',
+            'data'=>$summary
+        );
         return response()->json($msg, $msg['code']);
 
     }
 
     /**
      * @OA\Post(
-     *     path="/api/v1/pending-receival/{orderId}",
+     *     path="/api/v1/pending-receival/{PONo}",
      *     summary="Generate a new Purchase Orders Pending Receival",
      *      tags={"Purchase Order"},
      *     @OA\Parameter(
-     *         name="orderId",
+     *         name="PONo",
      *         in="path",
      *         description="Provider Purchase Order No a parameter",
      *         required=true,
@@ -110,10 +213,15 @@ class ApiController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     *                  @OA\Property(
+     *                     property="PONo",
+     *                     type="string",
+     *                 ),
      *                 @OA\Property(
      *                     property="ItemID",
      *                     type="string",
      *                 ),
+     *
      *                 @OA\Property(
      *                     property="UnitCost",
      *                     type="string",
@@ -141,13 +249,36 @@ class ApiController extends Controller
      *                      property="OrderID",
      *                     type="string",
      *                 ),
+     *                  @OA\Property(
+     *                      property="SupplierID",
+     *                     type="string",
+     *                 ),
+     *                  @OA\Property(
+     *                      property="OrderUnit",
+     *                     type="string",
+     *                 ),
+     *                  @OA\Property(
+     *                      property="ItemQuantity",
+     *                     type="string",
+     *                 ),
+     *                  @OA\Property(
+     *                      property="QuantityOrdered",
+     *                     type="string",
+     *                 ),
      *                 example={
+     *                          "PONo": "03592018",
      *                          "ItemID": "D22231",
      *                           "UnitCost": "1392813",
      *                          "StockLevel": "223",
      *                          "ExpiryDate": "2020-01-31 00:00:00.000",
      *                          "BatchNo":"237372",
-     *                          "StoreID":"ST3372","OrderID":"234543"
+     *                          "StoreID":"ST3372","OrderID":"234543",
+     *                          "Description":"Table of Bla bla",
+     *                          "SupplierID":"3244",
+     *                          "OrderUnit":"TABLETS",
+     *                          "ItemQuantity":"2000.78",
+     *                          "QuantityOrdered":"3994.89",
+     *                          "OrderLineID":"1","OrderUnitID": 1,
      *                          }
      *             )
      *         )
@@ -160,8 +291,8 @@ class ApiController extends Controller
      */
     public function updateApprovalPendingReceival(Request $request, $purchase_order_no){
 
-        $pending_receival = PurchaseOrderLinesApprovedPendingReceivalView::all()
-            ->where('OrderID',$purchase_order_no);
+        $pending_receival = PurchaseOrderPendingReceival::all()
+            ->where('PONo',$purchase_order_no);
         if($pending_receival==null){
             $msg =array(
                 'code'=> '204',
@@ -192,6 +323,16 @@ class ApiController extends Controller
             $stocked_Item->StoreID = $request->StoreID;
             $stocked_Item->OrderID = $request->OrderID;
             $stocked_Item->Description = $request->Description;
+
+            $stocked_Item->SupplierID= $request->SupplierID;
+            $stocked_Item->OrderUnit=$request->OrderUnit;
+            $stocked_Item->ItemQuantity=$request->ItemQuantity;
+            $stocked_Item->QuantityOrdered=$request->QuantityOrdered;
+            $stocked_Item->OrderLineID=$request->OrderLineID;
+            $stocked_Item->OrderUnitID=$request->OrderUnitID;
+            $stocked_Item->PONo=$request->PONo;
+
+
             $save_stock = $stocked_Item->save();
 
         //}
@@ -216,11 +357,11 @@ class ApiController extends Controller
 
     /**
      * @OA\Post(
-     *     path="/api/v1/save-stored/{orderId}/{itemId}",
+     *     path="/api/v1/save-stored/{PONo}/{itemId}",
      *     summary="Receives a new Purchase Order(s)",
      *      tags={"Purchase Order"},
      *     @OA\Parameter(
-     *         name="orderId",
+     *         name="PONo",
      *         in="path",
      *         description="Supplier Purchase Order No a parameter",
      *         required=true,
@@ -286,7 +427,7 @@ class ApiController extends Controller
     public function saveAllCompletedPurchaseOrder($purchase_order_no, $item_id){
         $pending_receival = DB::table('StockedItemsTemp')
             ->where([
-                ['OrderID',$purchase_order_no],
+                ['PONo',$purchase_order_no],
                 ['ItemID',$item_id]
             ])->first();
 
@@ -329,7 +470,7 @@ class ApiController extends Controller
 
         }else{
             DB::table('StockedItemsTemp')->where([
-                ['OrderID',$purchase_order_no],
+                ['PONo',$purchase_order_no],
                 ['ItemID',$item_id]
             ])->delete();
             $msg =array(
@@ -343,13 +484,13 @@ class ApiController extends Controller
 
     /**
      * @OA\Get(
-     *     path="/api/v1/pending-check/{orderId}",
+     *     path="/api/v1/pending-check/{PONo}",
      *     summary="Get Purchase Orders Waiting to be checked and Approved.",
      *     @OA\Response(response="200", description="Get All Orders Waiting to be checked and Approved"),
      *
      *     tags={"Purchase Order"},
      *     @OA\Parameter(
-     *         name="orderId",
+     *         name="PONo",
      *         in="path",
      *         description="Provider Purchase Order No a parameter",
      *
@@ -359,18 +500,18 @@ class ApiController extends Controller
      *
      */
     public function getAllReceivalPending($purchase_order_no){
-
+    //Get List of Purchase Orders waiting to be checked at the facility
         $data =array();
+        //Checks if Purchase Order Exists
         $pending_receival_check = StockItemTemp::all()
-            ->where('OrderID',$purchase_order_no);
+            ->where('PONo',$purchase_order_no);
 
         $data['items'] = $pending_receival_check;
-
 
         if($pending_receival_check==null){
             $msg =array(
                 'code'=> '204',
-                'message'=> 'no record available',
+                'message'=> 'no record available for Purchase Order no '.$purchase_order_no,
                 'data'=>null
             );
 
@@ -404,7 +545,9 @@ class ApiController extends Controller
             'NoPerBaseUnit'=> $request->NoPerBaseUnit,
             'StockTransID'=> $request->StockTransID,
             'StockedUnitID'=> $request->StockedUnitID,
-            'StockedTypeID'=> $request->StockedTypeID
+            'StockedTypeID'=> $request->StockedTypeID,
+
+
         );
 
        $update = DB::table('stocked_items')->where('ItemID', $item_id)
@@ -488,4 +631,8 @@ class ApiController extends Controller
         }
         return response()->json($msg, $msg['code']);
     }
+
+
+
+
 }

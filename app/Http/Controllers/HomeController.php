@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Traits\StockMovementApi;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+    use StockMovementApi;
     /**
      * Create a new controller instance.
      *
