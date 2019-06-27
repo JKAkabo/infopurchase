@@ -21,5 +21,15 @@
       <user-name>sa</user-name>
       <introspection-schemas>Hospital6:dbo|authdb:</introspection-schemas>
     </data-source>
+    <data-source name="infopurchase-external" uuid="ea684c34-86ec-43d2-b6eb-b85b6b89f066">
+      <database-info product="Microsoft SQL Server" version="14.00.2014" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 7.2 for SQL Server" driver-version="7.2.1.0" dbms="MSSQL" exact-version="14.0.2014" exact-driver-version="7.2">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>sa</user-name>
+      <introspection-schemas>@:@</introspection-schemas>
+    </data-source>
   </component>
 </project>

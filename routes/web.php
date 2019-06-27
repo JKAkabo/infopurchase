@@ -18,6 +18,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/test', 'UserController@check');
 Route::post('/register-users', 'UserController@store')->name('register.user');
 
 Route::get('/user-types', 'UserController@get_user_type')->name('user-types');
@@ -35,3 +36,15 @@ Route::get('/stock-items-views/{itemid}/{storeid}', 'HomeController@getOneStockM
 
 //Orders
 Route::get('/orders-pending', 'PurchaseOrderLinesApprovedPendingReceivalViewController@index')->name('orders-pending');
+
+
+// Creating user records for suppliers protocol
+// PROTOCOL CODE: XAXIS
+Route::get('/XAXIS/update-usercategories', 'HamsUserController@insert_supplier_record_into_usercategory_table');
+Route::get('/XAXIS/update-usergrades', 'HamsUserController@insert_contractor_record_into_usergrade_table');
+Route::get('/XAXIS/execute', 'HamsUserController@make_users_from_suppliers');
+
+// Create User from Supplier
+Route::get('/supplier/add', 'HamsUserController@create')->middleware('auth', 'user.isAdmin')->name('add-supplier-page');
+Route::get('/supplier/add-form/{supplierId}', 'HamsUserController@createForm')->middleware('auth')->name('register-supplier-form');
+Route::post('/supplier/add', 'HamsUserController@store')->middleware('auth', 'user.isAdmin')->name('add-supplier');
