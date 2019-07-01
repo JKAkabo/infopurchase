@@ -36,7 +36,7 @@
         // })
         jQuery("#getCreateFormBtn").click(function (e) {
             let supplierId = jQuery("#supplierId").val();
-            jQuery("#createFormContainer").load("/user/register-form/" + supplierId);
+            jQuery("#createFormContainer").load({{ route('register-supplier-form') }} + supplierId);
         })
     </script>
 @endsection

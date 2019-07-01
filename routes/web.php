@@ -42,9 +42,8 @@ Route::get('/orders-pending', 'PurchaseOrderLinesApprovedPendingReceivalViewCont
 // PROTOCOL CODE: XAXIS
 Route::get('/XAXIS/update-usercategories', 'HamsUserController@insert_supplier_record_into_usercategory_table');
 Route::get('/XAXIS/update-usergrades', 'HamsUserController@insert_contractor_record_into_usergrade_table');
-Route::get('/XAXIS/execute', 'HamsUserController@make_users_from_suppliers');
 
 // Create User from Supplier
 Route::get('/supplier/add', 'HamsUserController@create')->middleware('auth', 'user.isAdmin')->name('add-supplier-page');
-Route::get('/supplier/add-form/{supplierId}', 'HamsUserController@createForm')->middleware('auth')->name('register-supplier-form');
+Route::get('/supplier/add-form/{supplierId}', 'HamsUserController@createForm')->middleware('auth', 'user.isAdmin')->name('register-supplier-form');
 Route::post('/supplier/add', 'HamsUserController@store')->middleware('auth', 'user.isAdmin')->name('add-supplier');
