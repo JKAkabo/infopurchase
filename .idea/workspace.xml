@@ -2,135 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02e82480-869b-456d-9466-bb54a8f4dfa3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/authdb.JiAtrA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/authdb.JiAtrA/schema/dbo.sYMBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/inventdb.WL1nJQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/inventdb.WL1nJQ/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/inventdb.WL1nJQ/schema/db_accessadmin.KqpDJg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/inventdb.WL1nJQ/schema/db_backupoperator.R9Ifpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/inventdb.WL1nJQ/schema/db_datareader.To823g.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/inventdb.WL1nJQ/schema/db_datawriter._tp55w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/inventdb.WL1nJQ/schema/db_ddladmin.hGWOrg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/inventdb.WL1nJQ/schema/db_denydatareader.2lWItw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/inventdb.WL1nJQ/schema/db_denydatawriter.iqHLwA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/inventdb.WL1nJQ/schema/db_owner.souIfA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/inventdb.WL1nJQ/schema/db_securityadmin.Dj5jKg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/inventdb.WL1nJQ/schema/dbo.sYMBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/inventdb.WL1nJQ/schema/guest.2C3iBQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/inventdb.WL1nJQ/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/master.YiqNvw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/master.YiqNvw/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/master.YiqNvw/schema/db_accessadmin.KqpDJg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/master.YiqNvw/schema/db_backupoperator.R9Ifpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/master.YiqNvw/schema/db_datareader.To823g.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/master.YiqNvw/schema/db_datawriter._tp55w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/master.YiqNvw/schema/db_ddladmin.hGWOrg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/master.YiqNvw/schema/db_denydatareader.2lWItw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/master.YiqNvw/schema/db_denydatawriter.iqHLwA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/master.YiqNvw/schema/db_owner.souIfA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/master.YiqNvw/schema/db_securityadmin.Dj5jKg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/master.YiqNvw/schema/guest.2C3iBQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/master.YiqNvw/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/model.KfszBg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/model.KfszBg/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/model.KfszBg/schema/db_accessadmin.KqpDJg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/model.KfszBg/schema/db_backupoperator.R9Ifpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/model.KfszBg/schema/db_datareader.To823g.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/model.KfszBg/schema/db_datawriter._tp55w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/model.KfszBg/schema/db_ddladmin.hGWOrg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/model.KfszBg/schema/db_denydatareader.2lWItw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/model.KfszBg/schema/db_denydatawriter.iqHLwA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/model.KfszBg/schema/db_owner.souIfA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/model.KfszBg/schema/db_securityadmin.Dj5jKg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/model.KfszBg/schema/dbo.sYMBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/model.KfszBg/schema/guest.2C3iBQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/model.KfszBg/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/DatabaseMailUserRole.8_5cew.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/SQLAgentOperatorRole.0TKOXA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/SQLAgentReaderRole.MDWBQA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/SQLAgentUserRole.-G0QHw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/TargetServersRole.tedgoQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/db_accessadmin.KqpDJg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/db_backupoperator.R9Ifpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/db_datareader.To823g.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/db_datawriter._tp55w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/db_ddladmin.hGWOrg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/db_denydatareader.2lWItw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/db_denydatawriter.iqHLwA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/db_owner.souIfA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/db_securityadmin.Dj5jKg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/db_ssisadmin.hKdIaQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/db_ssisltduser.nKx1mg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/db_ssisoperator.TxzNGQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/dbo.sYMBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/dbo.sYMBAA.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/guest.2C3iBQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/managed_backup.YmLD7g.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/managed_backup.YmLD7g.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/smart_admin.WcEq9g.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/smart_admin.WcEq9g.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/msdb.pEgzAA/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_accessadmin.KqpDJg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_backupoperator.R9Ifpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_datareader.To823g.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_datawriter._tp55w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_ddladmin.hGWOrg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_denydatareader.2lWItw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_denydatawriter.iqHLwA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_owner.souIfA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/db_securityadmin.Dj5jKg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/dbo.sYMBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/dbo.sYMBAA.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/guest.2C3iBQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/poappdb.wFuv5w/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/tempdb.Uqu0yw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/tempdb.Uqu0yw/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_accessadmin.KqpDJg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_backupoperator.R9Ifpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_datareader.To823g.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_datawriter._tp55w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_ddladmin.hGWOrg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_denydatareader.2lWItw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_denydatawriter.iqHLwA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_owner.souIfA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_securityadmin.Dj5jKg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/tempdb.Uqu0yw/schema/dbo.sYMBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/tempdb.Uqu0yw/schema/guest.2C3iBQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6746974c-ad45-4736-9cb7-94f35bbd8a28/storage_v2/_src_/database/tempdb.Uqu0yw/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be40efdc-837c-41b4-8cb9-6b3caf8a51c0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be40efdc-837c-41b4-8cb9-6b3caf8a51c0/storage_v2/_src_/database/Hospital6.HOlqRg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be40efdc-837c-41b4-8cb9-6b3caf8a51c0/storage_v2/_src_/database/Hospital6.HOlqRg/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be40efdc-837c-41b4-8cb9-6b3caf8a51c0/storage_v2/_src_/database/Hospital6.HOlqRg/schema/db_accessadmin.KqpDJg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be40efdc-837c-41b4-8cb9-6b3caf8a51c0/storage_v2/_src_/database/Hospital6.HOlqRg/schema/db_backupoperator.R9Ifpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be40efdc-837c-41b4-8cb9-6b3caf8a51c0/storage_v2/_src_/database/Hospital6.HOlqRg/schema/db_datareader.To823g.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be40efdc-837c-41b4-8cb9-6b3caf8a51c0/storage_v2/_src_/database/Hospital6.HOlqRg/schema/db_datawriter._tp55w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be40efdc-837c-41b4-8cb9-6b3caf8a51c0/storage_v2/_src_/database/Hospital6.HOlqRg/schema/db_ddladmin.hGWOrg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be40efdc-837c-41b4-8cb9-6b3caf8a51c0/storage_v2/_src_/database/Hospital6.HOlqRg/schema/db_denydatareader.2lWItw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be40efdc-837c-41b4-8cb9-6b3caf8a51c0/storage_v2/_src_/database/Hospital6.HOlqRg/schema/db_denydatawriter.iqHLwA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be40efdc-837c-41b4-8cb9-6b3caf8a51c0/storage_v2/_src_/database/Hospital6.HOlqRg/schema/db_owner.souIfA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be40efdc-837c-41b4-8cb9-6b3caf8a51c0/storage_v2/_src_/database/Hospital6.HOlqRg/schema/db_securityadmin.Dj5jKg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be40efdc-837c-41b4-8cb9-6b3caf8a51c0/storage_v2/_src_/database/Hospital6.HOlqRg/schema/dbo.sYMBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be40efdc-837c-41b4-8cb9-6b3caf8a51c0/storage_v2/_src_/database/Hospital6.HOlqRg/schema/dbo.sYMBAA.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be40efdc-837c-41b4-8cb9-6b3caf8a51c0/storage_v2/_src_/database/Hospital6.HOlqRg/schema/guest.2C3iBQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/be40efdc-837c-41b4-8cb9-6b3caf8a51c0/storage_v2/_src_/database/Hospital6.HOlqRg/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/infopurchase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/infopurchase.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/supplier/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/supplier/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +10,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -291,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,7 +198,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,24 +238,21 @@
       <option name="presentableId" value="Default" />
       <updated>1561716173398</updated>
       <workItem from="1561716176490" duration="1918000" />
+      <workItem from="1561975166861" duration="571000" />
+      <workItem from="1562008355822" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1918000" />
+    <option name="totallyTimeSpent" value="2492000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1920" height="1050" extended-state="0" />
+    <frame x="0" y="30" width="1221" height="659" extended-state="0" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2587234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -391,10 +260,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" weight="0.32977587" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32830188" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32977587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
